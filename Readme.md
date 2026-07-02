@@ -170,11 +170,10 @@ Query filters (admin): `category`, `status`, `from`, `to` (YYYY-MM-DD)
 | GET | `/dashboard/settings/overdue-days` | Both | Get threshold |
 | PUT | `/dashboard/settings/overdue-days` | Admin | `{ overdueDays }` |
 
-## Deployment
-
-- **Backend:** Deploy to Render/Railway with `npm start`, set env vars, persist `data/` and `uploads/`
-- **Frontend:** Build with `npm run build`, deploy to Vercel/Netlify, set `VITE_API_URL` to backend URL
-
 ## License
 
 Open source — for assignment submission.
+
+<p align="center">
+  Made with ❤️ by <strong>Poonam Singh</strong>
+</p>
